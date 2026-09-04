@@ -7,6 +7,63 @@ export const metadata: Metadata = {
     "La Diva Pizzeria in Aachen – jede Pizza 29 cm mit 3 Zutaten nach Wahl für 6,00 €. Speisekarte, Öffnungszeiten und Kontakt auf einen Blick.",
 };
 
+<section className="border-b border-white/10 bg-gradient-to-r from-[#140707] via-[#2a0b0b] to-[#140707]">
+  <div className="mx-auto max-w-7xl px-6 py-5">
+    <div className="mb-4 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+      <div>
+        <p className="text-xs uppercase tracking-[0.3em] text-[#d4b06a]">
+          Aktuelle Highlights
+        </p>
+        <h2 className="text-2xl font-semibold text-white">
+          Angebote bei La Diva Pizzeria
+        </h2>
+      </div>
+
+      <div className="rounded-full border border-red-500/30 bg-red-500/10 px-4 py-2 text-sm text-red-100">
+        Neuer Inhaber: <span className="font-semibold text-white">Dilges Koc</span>
+      </div>
+    </div>
+
+    <div className="grid gap-4 md:grid-cols-3">
+      <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-lg shadow-black/20">
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-[#d4b06a]">
+          Lieferung
+        </p>
+        <h3 className="text-xl font-semibold text-white">
+          Ab 15 Pizzen liefern wir auch
+        </h3>
+        <p className="mt-2 text-sm leading-6 text-white/70">
+          Ideal für größere Gruppen, Feiern, Firmen oder gemeinsame Bestellungen.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-red-500/20 bg-gradient-to-br from-red-600/20 to-red-900/10 p-5 shadow-lg shadow-red-900/20">
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-red-300">
+          Mengenrabatt
+        </p>
+        <h3 className="text-xl font-semibold text-white">
+          Ab 25 Pizzen nur <span className="text-red-400">5,00 €</span> pro Pizza
+        </h3>
+        <p className="mt-2 text-sm leading-6 text-white/70">
+          Statt 6,00 € pro Pizza gilt bei großen Bestellungen unser Sonderpreis.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-lg shadow-black/20">
+        <p className="mb-2 text-xs uppercase tracking-[0.25em] text-[#d4b06a]">
+          Studenten-Angebot
+        </p>
+        <h3 className="text-xl font-semibold text-white">
+          Ab 2 Pizzen nur <span className="text-red-400">5,00 €</span> pro Pizza
+        </h3>
+        <p className="mt-2 text-sm leading-6 text-white/70">
+          Gültig für Studierende – perfekt für die Mittagspause oder den Abend mit Freunden.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 const pizzaZutaten = [
   "Paprika",
   "Jalapeños",
