@@ -579,7 +579,7 @@ export default function Home() {
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-[2rem] border border-[#c9a46a]/15 bg-[#120d0d] p-3">
             <Image
-              src="/la-diva/flyer-a.png"
+              src="/la-diva/flyer-aa.png"
               alt="La Diva Speisekarte"
               width={1448}
               height={1086}
@@ -589,7 +589,7 @@ export default function Home() {
 
           <div className="overflow-hidden rounded-[2rem] border border-[#c9a46a]/15 bg-[#120d0d] p-3">
             <Image
-              src="/la-diva/flyer-b.png"
+              src="/la-diva/flyer-bb.png"
               alt="La Diva Speisekarte"
               width={1448}
               height={1086}
