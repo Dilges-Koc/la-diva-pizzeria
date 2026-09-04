@@ -30,7 +30,7 @@ export default function ImpressumPage() {
               <p className="mt-4">
                 La Diva Pizzeria
                 <br />
-                Berivan Koc
+                Dilges Koc
                 <br />
                 Großkölnstraße 47
                 <br />
